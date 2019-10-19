@@ -1,11 +1,11 @@
-# Sirius
-A simple assistant for Whatsapp
-
+# Columbus
+A Whatsapp bot with an arsenal of features.
 ## Usage
-Clone repo, chromedriver should be in the same folder (Download appropriate version from [here](https://chromedriver.chromium.org/downloads)). Only requirement is selenium. Install it with pip. Open your whatsapp and make a new group named "Sirius".
-Alternatively, in the script change 'name' to any group or contact name you already have in your phone.  
-Use as follows : Sirius command parameters.  
-To change the invocation, set phrase to whatever you want. Please not as of now most things are case sensitive.
+ * Clone repo
+ * Chromedriver.exe should be in the same folder (Download appropriate version from [here](https://chromedriver.chromium.org/downloads)).
+* Create a new whatsapp group names Columbus(Or you can change the "name" field in the code to any existing group or contact).
+* Anyone can access the bot using the following query: Columbus <command>
+* You can also change the bot name, by changing the "phrase" field in the code.
 
 ### Commands 
 #### 1. spam / crucio 
