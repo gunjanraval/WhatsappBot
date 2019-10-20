@@ -12,8 +12,8 @@ import time
 driver = webdriver.Chrome()
 driver.get('https://web.whatsapp.com/')
 
-name = 'Sirius'
-phase = 'Sirius'
+name = 'Columbus'
+phase = 'Columbus'
 input('Scan QR code and press y once the screen has stopped loading: ')
 time.sleep(5)
 
