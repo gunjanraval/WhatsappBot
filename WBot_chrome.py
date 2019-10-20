@@ -2,7 +2,7 @@
 """
 Created on Sat Dec  1 19:58:56 2018
 
-@author: Legedith
+@author: gunjanraval
 """
 
 from selenium import webdriver
@@ -12,8 +12,8 @@ import time
 driver = webdriver.Chrome()
 driver.get('https://web.whatsapp.com/')
 
-name = 'Sirius'
-phase = 'Sirius'
+name = 'Columbus'
+phase = 'Columbus'
 input('Scan QR code and press y once the screen has stopped loading: ')
 time.sleep(5)
 
