@@ -2,7 +2,7 @@
 A Whatsapp bot with an arsenal of features.
 ## Usage
  * Clone repo
- * Chromedriver.exe should be in the same folder (Download appropriate version from [here](https://chromedriver.chromium.org/downloads)).
+ * You can use either chromedriver or firefox whichever webdriver you've configured already.
 * Create a new whatsapp group names Columbus(Or you can change the "name" field in the code to any existing group or contact).
 * Anyone can access the bot using the following query: Columbus <command>
 * You can also change the bot name, by changing the "phrase" field in the code.
