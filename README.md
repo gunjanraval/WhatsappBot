@@ -8,31 +8,31 @@ A Whatsapp bot with an arsenal of features.
 * You can also change the bot name, by changing the "phrase" field in the code.
 
 ### Commands 
-#### 1. spam / crucio 
+#### 1. spam
 For spamming the message in same group/chat  
 Usage: Sirius crucio <message> <count>
 
-#### 2. spam.big / sectumsempra
+#### 2. spam.big
 For spamming someone else's chat  
 Usage: Sirius sectumsempra <person/group name> <message> <count>
 
-#### 3. google / alohomora
+#### 3. google
 Sends a google link fot the search query  
 Usage: Sirius alohomora <query>
 
-#### 4. youtube / accio
+#### 4. youtube
 Sends the link of video searched  
 Usage: Sirius accio <song/ or any other title you wanna search on youtube>
 
-#### 5. change / apparate
+#### 5. change
 Access the bot from some other chat  
 Usage: Sirius apparate <group/person name>
 
-#### 6. rename / disapparate
+#### 6. rename
 Rename the bot  
 Usage: Sirius disapparate <new name>
 
-#### 7. mode / snape
+#### 7. mode
 Change the mode from scanning outgoing to incoming messages  
 Usage: Sirius snape <name> in/out
 
@@ -44,6 +44,6 @@ Usage: Sirius urban <query>
 Gets the definition from wikipedia via query
 Usage: Sirius wiki <query>
 
-#### 10. cantis / soundcloud
+#### 10. soundcloud
 Gets the song link from soundlcoud
 Usage: Sirius cantis <query>
