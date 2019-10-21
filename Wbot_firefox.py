@@ -58,13 +58,13 @@ def execute(cmd):
     global phase
     global mode
     global target
-    if cmd[0] == 'spam' or cmd[0] == 'crucio':
+    if cmd[0] == 'spam':
         if(len(cmd) > 2):
             spam(cmd[1:])
         else:
             msg_box.send_keys('Crucio failed'+Keys.RETURN)
             
-    elif cmd[0] == 'spam.big' or cmd[0] == 'sectumsempra':
+    elif cmd[0] == 'spam.big':
         if(len(cmd)>3):
             focus(cmd[1])
             spam(cmd[2:])
@@ -72,7 +72,7 @@ def execute(cmd):
         else:
             msg_box.send_keys('Sectum Sempra failed'+Keys.RETURN)
             
-    elif cmd[0] == 'change' or cmd[0] == 'apparate':
+    elif cmd[0] == 'change':
         target = True
         if(len(cmd)>1):
             name = cmd[1]
@@ -81,13 +81,13 @@ def execute(cmd):
         else:
             msg_box.send_keys("Couldn't Apparate, Focus harder"+Keys.RETURN)
             
-    elif cmd[0] == 'rename' or cmd[0] == 'disapparate':
+    elif cmd[0] == 'rename':
         if(len(cmd)>1):
             phase = cmd[1]
         else:
             msg_box.send_keys("Couldn't Disapparate, Focus harder"+Keys.RETURN)
     
-    elif cmd[0] == 'mode' or cmd[0] == 'snape':
+    elif cmd[0] == 'mode':
         target = True
         if(len(cmd)>2):
             name = cmd[1]
@@ -101,7 +101,7 @@ def execute(cmd):
         else:
             msg_box.send_keys("Couldn't Disapparate, Focus harder"+Keys.RETURN)
             
-    elif cmd[0] == 'google' or cmd[0] == 'alohomora':
+    elif cmd[0] == 'google':
         if(len(cmd)>1):
             subject = ' '.join(cmd[1:])
             msg_box.send_keys('https://www.google.com/search?q='+removeSpaces(subject)+Keys.RETURN)
@@ -124,7 +124,7 @@ def execute(cmd):
         else:
             msg_box.send_keys("Hear, Hear!"+Keys.RETURN)
     
-    elif cmd[0] == 'youtube' or cmd[0] == 'accio':
+    elif cmd[0] == 'youtube':
         if(len(cmd)>1):
             subject = ' '.join(cmd[1:])
             link = youtube(subject)
@@ -134,7 +134,7 @@ def execute(cmd):
         else:
             msg_box.send_keys("Concentrate harder on the object!"+Keys.RETURN)
     
-    elif cmd[0] == 'soundcloud' or cmd[0] == 'cantis':
+    elif cmd[0] == 'soundcloud':
         if(len(cmd)>1):
             subject = ' '.join(cmd[1:])
             link = soundcloud(subject)
