@@ -58,7 +58,7 @@ def execute(cmd):
     global phase
     global mode
     global target
-    if cmd[0] == 'spam' or cmd[0] == 'crucio':
+    if cmd[0] == 'spam':
         if(len(cmd) > 2):
             spam(cmd[1:])
         else:
