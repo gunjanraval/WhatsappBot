@@ -10,6 +10,8 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 driver = webdriver.Chrome()
+#driver = webdriver.Firefox()
+
 driver.get('https://web.whatsapp.com/')
 
 name = 'Columbus'
