@@ -8,6 +8,7 @@ Created on Sat Dec  1 19:58:56 2018
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+from urllib.request import urlretrieve
 
 driver = webdriver.Chrome()
 #driver = webdriver.Firefox()
@@ -163,8 +164,9 @@ def googleImage(subject):
     d.get('https://www.google.com/search?tbm=isch&q='+removeSpaces(subject))
     src =d.find_elements_by_class_name('rg_ic')[0].get_attribute('src')
     #WIP from here...
-    d.find_elements_by_class_name('_3j8Pd')[4].click() #Clip "Attach" button
-    d.find_elements_by_class_name('_3cfBY')[0].click() #Selecting Photo/Video Option
+    urlretrieve(image["src"],subject+'.jpg')
+    #d.find_elements_by_class_name('_3j8Pd')[4].click() #Clip "Attach" button
+    #d.find_elements_by_class_name('_3cfBY')[0].click() #Selecting Photo/Video Option
     d.close()
     return link
 
