@@ -10,31 +10,31 @@ A Whatsapp bot with an arsenal of features.
 ### Commands 
 #### 1. spam
 For spamming the message in same group/chat  
-Usage: Columbus crucio <message> <count>
+Usage: Columbus spam <message> <count>
 
 #### 2. spam.big
 For spamming someone else's chat  
-Usage: Columbus sectumsempra <person/group name> <message> <count>
+Usage: Columbus spam.big <person/group name> <message> <count>
 
 #### 3. google
 Sends a google link fot the search query  
-Usage: Columbus alohomora <query>
+Usage: Columbus google <query>
 
 #### 4. youtube
 Sends the link of video searched  
-Usage: Columbus accio <song/ or any other title you wanna search on youtube>
+Usage: Columbus youtube <song/ or any other title you wanna search on youtube>
 
 #### 5. change
 Access the bot from some other chat  
-Usage: Columbus apparate <group/person name>
+Usage: Columbus change <group/person name>
 
 #### 6. rename
 Rename the bot  
-Usage: Columbus disapparate <new name>
+Usage: Columbus rename <new name>
 
 #### 7. mode
 Change the mode from scanning outgoing to incoming messages  
-Usage: Columbus snape <name> in/out
+Usage: Columbus mode <name> in/out
 
 #### 8. urban
 Gets the meaning of a query from Urban Dictionary
@@ -46,4 +46,4 @@ Usage: Columbus wiki <query>
 
 #### 10. soundcloud
 Gets the song link from soundlcoud
-Usage: Columbus cantis <query>
+Usage: Columbus soundcloud <query>
