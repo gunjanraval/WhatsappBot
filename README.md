@@ -10,40 +10,40 @@ A Whatsapp bot with an arsenal of features.
 ### Commands 
 #### 1. spam
 For spamming the message in same group/chat  
-Usage: Sirius crucio <message> <count>
+Usage: Columbus crucio <message> <count>
 
 #### 2. spam.big
 For spamming someone else's chat  
-Usage: Sirius sectumsempra <person/group name> <message> <count>
+Usage: Columbus sectumsempra <person/group name> <message> <count>
 
 #### 3. google
 Sends a google link fot the search query  
-Usage: Sirius alohomora <query>
+Usage: Columbus alohomora <query>
 
 #### 4. youtube
 Sends the link of video searched  
-Usage: Sirius accio <song/ or any other title you wanna search on youtube>
+Usage: Columbus accio <song/ or any other title you wanna search on youtube>
 
 #### 5. change
 Access the bot from some other chat  
-Usage: Sirius apparate <group/person name>
+Usage: Columbus apparate <group/person name>
 
 #### 6. rename
 Rename the bot  
-Usage: Sirius disapparate <new name>
+Usage: Columbus disapparate <new name>
 
 #### 7. mode
 Change the mode from scanning outgoing to incoming messages  
-Usage: Sirius snape <name> in/out
+Usage: Columbus snape <name> in/out
 
 #### 8. urban
 Gets the meaning of a query from Urban Dictionary
-Usage: Sirius urban <query>
+Usage: Columbus urban <query>
 
 #### 9. wiki
 Gets the definition from wikipedia via query
-Usage: Sirius wiki <query>
+Usage: Columbus wiki <query>
 
 #### 10. soundcloud
 Gets the song link from soundlcoud
-Usage: Sirius cantis <query>
+Usage: Columbus cantis <query>
