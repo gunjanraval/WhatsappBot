@@ -45,5 +45,5 @@ Gets the definition from wikipedia via query
 Usage: Columbus wiki <query>
 
 #### 10. soundcloud
-Gets the song link from soundlcoud
+Gets the song link from soundcloud
 Usage: Columbus soundcloud <query>
